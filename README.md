@@ -1,2 +1,2 @@
 # DukeIDS706_DE
-Template Repository for IDS 706 Projects
+This is a template repository for IDS 706 Projects - submission for Week 1
