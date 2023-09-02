@@ -6,3 +6,11 @@ install:
 #Adding this to format code using black
 format:	
 	black *.py 
+
+test:
+	python -m pytest -vv --cov=main check_average.py
+
+lint:
+	pylint --disable=R,C --ignore-patterns=check_.*?py *.py
+
+all: install lint format test
