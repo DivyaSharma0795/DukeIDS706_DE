@@ -1,0 +1,7 @@
+name: Python CI
+
+on:
+  push:
+    branches: [ check_average.py ]
+  pull_request:
+    branches: [ check_average.py ]
