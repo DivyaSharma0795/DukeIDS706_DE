@@ -1,5 +1,5 @@
 name: Python CI
-
+run-name: ${{ github.actor }} checking if averages function is working
 on:
   push:
     branches: [ check_average ]
