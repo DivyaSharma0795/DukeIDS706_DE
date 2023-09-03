@@ -1,5 +1,5 @@
 #  Use the Python image from Docker Hub (https://hub.docker.com/_/microsoft-vscode-devcontainers - using miniconda 3 because that is what I have on my local)
-FROM mcr.microsoft.com/vscode/devcontainers/miniconda 
+FROM mcr.microsoft.com/vscode/devcontainers/miniconda
 
 #  Advanced Packaging Tool - updating packages - adding "no-install-recommends" for smaller download and installation times 
 RUN apt-get update && apt-get -y install --no-install-recommends 
